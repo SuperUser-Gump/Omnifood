@@ -1,0 +1,14 @@
+{
+  "name": "omnifood",
+  "version": "1.0.0",
+  "description": "omnifood landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --browser=chrome"
+  },
+  "author": "Krittin Saenpakdi",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
