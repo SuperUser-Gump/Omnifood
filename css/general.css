@@ -98,8 +98,9 @@ body {
   align-items: center;
 }
 
+.heading-primary,
 .heading-secondary,
-.subheading {
+.heading-tertiary {
   font-weight: 700;
   color: #333;
   letter-spacing: -0.5px;
@@ -133,6 +134,7 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
