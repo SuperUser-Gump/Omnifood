@@ -137,5 +137,12 @@
   line-height: 1.8;
 }
 
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .step-img {
+  width: 35%;
 }
