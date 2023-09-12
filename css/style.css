@@ -521,11 +521,13 @@
   margin-bottom: 1.2rem;
 }
 
-.cta-form input {
+.cta-form input,
+.cta-form select {
   width: 100%;
   padding: 1.2rem;
   font-size: 1.8rem;
   font-family: inherit;
+  color: inherit;
   border: none;
   background-color: #fdf2e9;
   border-radius: 9px;
