@@ -569,3 +569,8 @@
   color: #767676;
   transition: all 0.3s;
 }
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
