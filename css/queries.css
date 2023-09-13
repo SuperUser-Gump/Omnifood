@@ -121,7 +121,7 @@
   }
 
   .main-nav {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.97);
     position: absolute;
     top: 0;
     left: 0;
@@ -131,6 +131,30 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .icon-mobile-nav[name='close-outline'] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
+    display: none;
   }
 
   .main-nav-list {
