@@ -66,6 +66,8 @@
 
   .hero {
     grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
   }
 
   .hero-text-box,
@@ -79,5 +81,18 @@
 
   .delivered-meals {
     justify-content: center;
+    margin-top: 3.2rem;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .step-number {
+    font-size: 7.4rem;
+  }
+
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
   }
 }
