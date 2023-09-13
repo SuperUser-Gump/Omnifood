@@ -6,4 +6,8 @@
   .hero {
     max-width: 120rem;
   }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
 }
